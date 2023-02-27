@@ -37,7 +37,9 @@ UNI_UID2UNAME = {0: 'backpack', 1: 'umbrella', 2: 'bag', 3: 'tie', 4: 'suitcase'
                  174: 'vegetation', 175: 'bicycle', 176: 'car', 177: 'autorickshaw', 178: 'motorcycle', 179: 'airplane',
                  180: 'bus', 181: 'train', 182: 'truck', 183: 'trailer', 184: 'boat_ship', 185: 'slow_wheeled_object',
                  186: 'river_lake', 187: 'sea', 188: 'water_other', 189: 'swimming_pool', 190: 'waterfall',
-                 191: 'wall', 192: 'window', 193: 'window_blind', 255: 'unlabeled'}
+                 191: 'wall', 192: 'window', 193: 'window_blind', 255: 'unlabeled', 256: 'balcony', 257: 'blind', 258: 'cornice',
+                 259: 'deco', 260: 'facade', 261: 'molding', 262: 'pillar', 263: 'shop', 264: 'background', 265: 'sill'}
+
 
 UNAME2EM_NAME = {'backpack': 'backpack', 'umbrella': 'umbrella', 'bag': 'bag', 'tie': 'tie',
                  'suitcase': 'suitcase', 'case': 'case', 'bird': 'bird', 'cat': 'cat', 'dog': 'dog',
@@ -70,7 +72,7 @@ UNAME2EM_NAME = {'backpack': 'backpack', 'umbrella': 'umbrella', 'bag': 'bag', '
                  'plaything_other': 'plaything other', 'teddy_bear': 'teddy bear', 'hair_dryer': 'hair dryer',
                  'toothbrush': 'toothbrush', 'painting': 'painting', 'poster': 'poster', 'bulletin_board': 'bulletin board',
                  'bottle': 'bottle', 'cup': 'cup', 'wine_glass': 'wine glass', 'knife': 'knife', 'fork': 'fork',
-                 'spoon': 'spoon', 'bowl': 'bowl', 'tray': 'tray', 'range_hood': 'range hood', 'plate': 'plate',
+                 'spoon': 'spoon', 'bowl': 'bowl', 'tray': 'tray', 'range_hodecood': 'range hood', 'plate': 'plate',
                  'person': 'person', 'rider_other': 'rider', 'bicyclist': 'bicyclist', 'motorcyclist': 'motorcyclist',
                  'paper': 'paper', 'streetlight': 'streetlight', 'road_barrier': 'road barrier', 'mailbox': 'mailbox',
                  'cctv_camera': 'cctv camera', 'junction_box': 'junction box', 'traffic_sign': 'traffic sign',
@@ -88,7 +90,9 @@ UNAME2EM_NAME = {'backpack': 'backpack', 'umbrella': 'umbrella', 'bag': 'bag', '
                  'trailer': 'trailer', 'boat_ship': 'boat ship', 'slow_wheeled_object': 'slow wheeled object',
                  'river_lake': 'river lake', 'sea': 'sea', 'water_other': 'water', 'swimming_pool': 'swimming pool',
                  'waterfall': 'waterfall', 'wall': 'wall', 'window': 'window', 'window_blind': 'window blind',
-                 'unlabeled': 'unlabeled'}
+                 'unlabeled': 'unlabeled', 'balcony': 'balcony', 'blind': 'blind', 'cornice': 'cornice', 'deco': 'deco',
+                 'facade': 'facade', 'molding': 'molding', 'pillar': 'pillar', 'shop': 'shop', 'background': 'background', 
+                 'sill': 'sill'}
 
 
 ALL_LABEL2ID = {'backpack': 0, 'umbrella': 1, 'bag': 2, 'tie': 3, 'suitcase': 4, 'case': 5, 'bird': 6, 'cat': 7,
@@ -140,4 +144,6 @@ ALL_LABEL2ID = {'backpack': 0, 'umbrella': 1, 'bag': 2, 'tie': 3, 'suitcase': 4,
                 'lynx(which is a type of animal)': 227, 'hat': 228, 'harbor seal': 229,
                 'alpaca(which is a type of animal)': 230, 'teapot': 231, 'glove': 232,
                 'sea lion(which is a type of animal)': 233, 'printer': 234, 'balloon': 235, 'stapler': 236,
-                'calculator': 237, 'unlabeled': 255}
+                'calculator': 237, 'unlabeled': 255, 'balcony': 256, 'blind': 257, 'cornice': 258,
+                'deco': 259, 'facade': 260, 'molding': 261, 'pillar': 262, 'shop': 263, 'background': 264,
+                'sill': 265}

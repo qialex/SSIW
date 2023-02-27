@@ -78,7 +78,7 @@ def get_parser() -> CfgNode:
     if args.root_dir is None:
         args.root_dir = f'{CODE_SPACE}/test_imgs'
         args.cam_id='01'
-        args.img_file_type = 'png'
+        args.img_file_type = 'jpg'
 
 
     if args.user_label:
@@ -94,7 +94,7 @@ def get_parser() -> CfgNode:
     cfg.save_folder = args.save_folder
 
     cfg.user_label = args.user_label
-    cfg.new_definitions = args.new_definitions
+    cfg.new_definitions = { str(os.environ["NEW_DEFINITION"]): '' } if 'NEW_DEFINITION' in os.environ else args.new_definitions
     return cfg
 
 
